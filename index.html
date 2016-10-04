@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<script>
+
+window.onload = function() {
+	var div = document.getElementById("test");
+	
+	
+	var table = document.createElement("table");
+	var  tr = document.createElement("tr");
+	var td = document.createElement("td");
+	var td2 = document.createElement("td");
+	
+	td.innerHTML = "brian jans";
+	td2.innerHTML = "jejejeej";
+	
+	td.appendChild(td2);
+	tr.appendChild(td);
+	table.appendChild(tr);
+	div.appendChild(table);
+	
+}
+	
+
+</script>
+
+</head>
+
+<body>
+
+
+<div id="test">
+
+
+
+</div>
+</body>
+</html>
